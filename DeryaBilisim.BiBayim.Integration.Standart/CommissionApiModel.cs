@@ -9,5 +9,8 @@ namespace DeryaBilisim.BiBayim.Integration.Standart
 
         [Required]
         public string ProductId { get; set; }
+
+        [Required]
+        public decimal Amount { get; set; }
     }
 }
