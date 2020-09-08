@@ -4,7 +4,7 @@ Derya Bilişim affiliate sistemi(BiBayim) için uygulama entegrasyonu nuget pake
 ## BiBayim Nedir?
 BiBayim affiliate sistemi, şirketlerin [BiBayim](https://bibayim.azurewebsites.net) portalı üzerinden üye olarak, sisteme ekleyecekleri ürünleri, Bayi(Dealer) dediğimiz hesaplar üzerinden linkerinin çeşitli mecralarda paylaşılarak, kendi sistemleri ile entegre edilerek satış gerçekleşmesi durumunda Bayi(Dealer) ve diğer sistem paydaşlarına belirlenen komisyon miktarında ücret yazılması ve ödeme takibi yapılabilmesini sağlayan bir sistemdir.
 
-[Buraya Şema Gelecek]
+![BiBayim Sistemi Çalışma Mantığı](https://github.com/muratbaseren/DeryaBilisim.Services.BiBayim.Integration/blob/master/resources/BiBayim.png?raw=true)
 
 ## Gereksinimler
 API sistemi BiBayim affiliate sisteminde şirket hesapları içindir. Şirketlerin ürünlerinin linklerini sisteme eklemeleri için Şirket hesabı açmaları gerekmektedir. Ardından **Ayarlar -> Token Üret** adımından sonra gelen ekranda bir erişim anahtarı oluşturmalısınız. Bu erişim anahtarı ile bu nuget paketini projenize ekleyerek ürün satışı ile bibayim sistemine satışı bildirmeniz gerekmektedir.
