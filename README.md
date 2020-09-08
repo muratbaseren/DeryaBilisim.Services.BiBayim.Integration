@@ -7,7 +7,7 @@ BiBayim affiliate sistemi, şirketlerin [BiBayim](https://bibayim.azurewebsites.
 [Buraya Şema Gelecek]
 
 ## Gereksinimler
-API sistemi BiBayim affiliate sisteminde şirket hesapları içindir. Şirketlerin ürünlerinin linklerini sisteme eklemeleri için Şirket hesabı açmaları gerekmektedir. Ardından Ayarlar -> Token Üret adımından sonra gelen ekranda bir erişim anahtarı oluşturmalısınız. Bu erişim anahtarı ile bu nuget paketini projenize ekleyerek ürün satışı ile bibayim sistemine satışı bildirmeniz gerekmektedir.
+API sistemi BiBayim affiliate sisteminde şirket hesapları içindir. Şirketlerin ürünlerinin linklerini sisteme eklemeleri için Şirket hesabı açmaları gerekmektedir. Ardından **Ayarlar -> Token Üret** adımından sonra gelen ekranda bir erişim anahtarı oluşturmalısınız. Bu erişim anahtarı ile bu nuget paketini projenize ekleyerek ürün satışı ile bibayim sistemine satışı bildirmeniz gerekmektedir.
 
 ## Kullanım
 
