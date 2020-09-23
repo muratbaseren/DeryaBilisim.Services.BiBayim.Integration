@@ -22,7 +22,8 @@ namespace DeryaBilisim.BiBayim.SampleCompanyWebApp.Controllers
             var response = _biBayimService.AddCommissionToDealer(new CommissionApiModel
             {
                 ReferalCode = "B0P0RL89",
-                ProductId = "f3dee8c4-7185-43fd-82df-009afad1ca16"
+                ProductId = "f3dee8c4-7185-43fd-82df-009afad1ca16",
+                Price = 12500
             });
 
             return View();
