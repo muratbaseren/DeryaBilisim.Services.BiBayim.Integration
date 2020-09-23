@@ -11,6 +11,6 @@ namespace DeryaBilisim.BiBayim.Integration.Standart
         public string ProductId { get; set; }
 
         [Required]
-        public decimal Amount { get; set; }
+        public decimal Price { get; set; }
     }
 }
