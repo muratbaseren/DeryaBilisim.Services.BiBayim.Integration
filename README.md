@@ -84,7 +84,8 @@ namespace DeryaBilisim.BiBayim.SampleCompanyWebApp.Controllers
             var response = _biBayimService.AddCommissionToDealer(new CommissionApiModel
             {
                 ReferalCode = "ASLPLS123",
-                ProductId = "295D7988-292B-4E99-831D-2F612E0CAAE1"
+                ProductId = "295D7988-292B-4E99-831D-2F612E0CAAE1",
+                Amount = 1234
             });
 
             return View();
