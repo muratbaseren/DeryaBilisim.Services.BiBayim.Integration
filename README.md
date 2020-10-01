@@ -57,7 +57,7 @@ public void ConfigureServices(IServiceCollection services)
 
 
 **HomeController.cs**
-BiBayim servisini kullanmak istediğiniz yerde aşağıdaki şekilde Dependecny Injection yaparak kullanımını sağlayabilirsiniz. Bayi ye komisyon tanımlamasını sağlamanız için bayinin size müşteriyi yönlendirdiği link'teki **ReferalCode ve ProductId değerlerini sisteminizde kaydetmeniz ve ürün satışı ile** bayi teşviğini arttırma amaçlı olarak **komisyon kazancını BiBayim sistemine ReferalCode ve ProductId** değerini bildirmeniz yeterlidir. **Ödeme takibini BiBayim portalından takip edebilirsiniz.**
+BiBayim servisini kullanmak istediğiniz yerde aşağıdaki şekilde Dependecny Injection yaparak kullanımını sağlayabilirsiniz. Bayi ye komisyon tanımlamasını sağlamanız için bayinin size müşteriyi yönlendirdiği link'teki **ReferalCode değerini sisteminizde kaydetmeniz ve ürün satışı ile** bayi teşviğini arttırma amaçlı olarak **komisyon kazancını BiBayim sistemine ReferalCode ve ürün tutarını** bildirmeniz yeterlidir. **Ödeme takibini BiBayim portalından takip edebilirsiniz.**
 
 ```csharp
 using DeryaBilisim.BiBayim.Integration.Standart;
@@ -84,7 +84,6 @@ namespace DeryaBilisim.BiBayim.SampleCompanyWebApp.Controllers
             var response = _biBayimService.AddCommissionToDealer(new CommissionApiModel
             {
                 ReferalCode = "ASLPLS123",
-                ProductId = "295D7988-292B-4E99-831D-2F612E0CAAE1",
                 Price = 12300
             });
 
