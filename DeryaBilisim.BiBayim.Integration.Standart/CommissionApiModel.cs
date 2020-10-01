@@ -8,9 +8,6 @@ namespace DeryaBilisim.BiBayim.Integration.Standart
         public string ReferalCode { get; set; }
 
         [Required]
-        public string ProductId { get; set; }
-
-        [Required]
         public decimal Price { get; set; }
     }
 }
