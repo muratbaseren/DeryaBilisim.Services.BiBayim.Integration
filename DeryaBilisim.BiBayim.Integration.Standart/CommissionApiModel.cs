@@ -9,5 +9,8 @@ namespace DeryaBilisim.BiBayim.Integration.Standart
 
         [Required]
         public decimal Price { get; set; }
+
+        public string OrderNo { get; set; }
+        public string Description { get; set; }
     }
 }

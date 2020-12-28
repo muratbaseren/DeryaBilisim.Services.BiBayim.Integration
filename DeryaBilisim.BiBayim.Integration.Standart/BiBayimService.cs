@@ -13,7 +13,7 @@ namespace DeryaBilisim.BiBayim.Integration.Standart
 
         public IRestResponse<BiBayimServiceResponse<object>> AddCommissionToDealer(CommissionApiModel model)
         {
-            var request = new RestRequest("/Dealer/AddCommission", Method.POST, DataFormat.Json);
+            var request = new RestRequest("/DealerApi/AddCommission", Method.POST, DataFormat.Json);
             request.AddJsonBody(model);
             return _client.Post<BiBayimServiceResponse<object>>(request);
         }
