@@ -83,8 +83,13 @@ namespace DeryaBilisim.BiBayim.SampleCompanyWebApp.Controllers
         {
             var response = _biBayimService.AddCommissionToDealer(new CommissionApiModel
             {
-                ReferalCode = "ASLPLS123",
-                Price = 12300
+                ReferalCode = "ASLPLS123",  //required
+                Price = 12300,  //required
+                Barcode = "ASD12345678", //required
+                ProductCode = "123456789", //required
+                OrderNo = "123456", //optional
+                OrderDate = DateTime.Now,  //optional
+                Description = "Lorem ipsum dolor sit a met."  //optional
             });
 
             return View();
