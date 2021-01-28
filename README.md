@@ -12,9 +12,9 @@ API sistemi BiBayim affiliate sisteminde şirket hesapları içindir. Şirketler
 
 ## Endpoints
 
-Test Endpoint : https://bibayim-test.azurewebsites.net/
+Test Endpoint : https://bibayim-test.azurewebsites.net
 
-Prod Endpoint : https://bibayim.azurewebsites.net/
+Prod Endpoint : https://bibayim.azurewebsites.net
 
 
 ## .NET Core MVC/API App Entegrasyonu
@@ -27,7 +27,7 @@ appsettings.json içerisinde aşağıdaki section ı açarak gerekli endpoint ve
 ```javascript
 {
   "BiBayimIntegration": {
-    "Endpoint": "https://bibayim-test.azurewebsites.net/",
+    "Endpoint": "https://bibayim-test.azurewebsites.net",
     "Token": "<<Your-Access-Token>>"
   },
   "Logging": {
